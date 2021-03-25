@@ -9,8 +9,6 @@ namespace BlackJack_Console
         public int Value { get; set; }
         public string ValName { get; set; }
         public string SuitIcon { get; set; }
-
-
     }
     public static class CardMethods
     {
@@ -18,12 +16,13 @@ namespace BlackJack_Console
         {
             //arrays to create cards and values
             string[] suit = { "Spades", "Hearts", "Diamonds", "Clubs" };
-            string[] suitIcon = { "♠", "♥", "♦", "♣" };
             int[] value = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 };
             string[] valName = { "Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
+            string[] suitIcon = { "♠", "♥", "♦", "♣" };
 
             int i = 0;
             int j = 0;
+
             List<Card> Cards = new();
             foreach (string s in suit)
             {
@@ -57,7 +56,5 @@ namespace BlackJack_Console
                 list[n] = value;
             }
         }
-
     }
-
 }
