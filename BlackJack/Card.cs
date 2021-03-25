@@ -16,7 +16,7 @@ namespace BlackJack_Console
         {
             //arrays to create cards and values
             string[] suit = { "Spades", "Hearts", "Diamonds", "Clubs" };
-            int[] value = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 };
+            int[] value = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10 };
             string[] valName = { "Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
             string[] suitIcon = { "♠", "♥", "♦", "♣" };
 
