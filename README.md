@@ -1,5 +1,5 @@
 # BlackJack
-##BlackJack Console Game
+### BlackJack Console Game
 
 I made a cardgame for the console just for fun ;-)
 It's a pretty simple version of BlackJack you against a dealer, no insurence or split functionallity 
